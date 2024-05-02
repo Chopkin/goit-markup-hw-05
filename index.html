@@ -376,13 +376,39 @@
 		</div>
 	</footer>
 
-	<div class="backdrop">
+	<div class="backdrop is-open">
 		<div class="modal">
 			<button type="button" class="modal-close-btn">
-				<svg class="modal close-icon" width="8" height="8">
+				<svg width="8" height="8" class="modal-close-icon">
 					<use href="./images/icons.svg#icon-Vector"></use>
 				</svg>
-			</button>	
+			</button>
+
+			<p class="form-p-title" >Leave your contacts and we will call you back</p>
+			<form class="form">
+				<!-- <fieldset class="form-group" > -->
+					<legend class="group-title" ></legend>
+
+					<label class="form-label" for="username">Name</label>
+						<input class="form-input" type="text" name="username" id="username" required />
+						<svg class="modal-field-icon" width="12" height="12" >
+							<use href="./images/icons.svg#icon-human"></use>
+						</svg>
+
+					<label class="form-label" for="tel">Phone</label>
+						<input class="form-input" type="tel" name="phone" id="tel" required />
+						<svg class="modal-field-icon" width="13" height="13" >
+							<use href="./images/icons.svg#icon-phone"></use>
+						</svg>
+
+					<label class="form-label" for="emial">Email</label>
+						<input class="form-input" type="email" name="email" id="email" required />
+						<svg class="modal-field-icon" width="15" height="12" >
+							<use href="./images/icons.svg#icon-mail"></use>
+						</svg>
+				<!-- </fieldset> -->
+			</form>
+
 		</div>
 	</div>
 
