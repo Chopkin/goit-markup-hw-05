@@ -703,8 +703,32 @@ header {
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
 	min-height: 40px;
-	margin-bottom: 8px;
 	background-color: transparent;
+	outline: transparent;
+
+	padding-left: 38px;
+}
+
+.form-input:focus {
+	border-color: #4D5AE5;
+}
+
+.modal-field-icon {
+	fill: #2E2F42;
+
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.form-input:focus,
+.form-input:hover + .modal-field-icon {
+	fill: #4D5AE5;
+}
+
+.modal-div-field {
+	margin-bottom: 8px;
 }
 
 
@@ -723,5 +747,9 @@ header {
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: #2e2f42;
+}
+
+.div-svg-and-input {
+	position: relative;
 }
 
