@@ -722,7 +722,7 @@ header {
 	transform: translateY(-50%);
 }
 
-.form-input:focus,
+.form-input:focus + .modal-field-icon,
 .form-input:hover + .modal-field-icon {
 	fill: #4D5AE5;
 }
